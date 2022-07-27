@@ -1,14 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+<head> <!-- esta etiqueta indica que se comenzará a indicar las popiedades del doc-->
+    <meta charset="UTF-8"> <!--aqui estamos declarando la codificación a un navegador-->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- aqui los motores de busqueda utilizan la metaetiqueta  de descripcion al mostrar resultados. este debe ser un resumen conciso y relevante ya que será lo que aparecera en el navegador cuadno busquemos la pagina web-->
+    <title>Document</title> <!--aqui estamos asignando el nombre a nuestra página web, se marcara como favorito y es el nombre que apracera cuando se muestre resultado en el motor de busqueda-->
+    <link rel="stylesheet" href="my_css_file.css"> <!-- aqui estamos vinculando la hoja de stilo con html -->
+    <script src="my_javascript_library.js"></script> <!--aqui vinculamos javascript o jquery haciendo nuestra pagina interactiva-->
 </head>
-<body>
+<body> <!--aqui ingresaremos  encabezados, parrafos de texto, imaganes, inculos, listas,tablas, formularios, -->
     <H1>HOLA MUNDO!!</H1>
-
+    <p> aqui se ingresa un parrafo</p>
     <h3> instale extension indent-rainbow</h3>
-</body>
+
+    <img src" " > <!-- imagenes: contienen dos atributos obligatorios  scr: que corresponde a el enlace al lugar donde esta la imagen, atributo ALT: que es alternativo, son palabras para describir la imgen, se utiliza por ejem con las personas con problemas de visión-->
+    <a href="www.google.com"> </a> <!-- para los enlances se utiliza la etiqueta <a> significa etiqueta de anclaje, se utuliza href que es la abreviatura de referencia de hipertexto-->
+        <!-- los atributos disponibles pra href son  href=http///www.example.xom/default.html  href="default.html  href="# top-->
+
+        <!-- ESTE ES UN EJEPLO DE HREF -->
+        
+        <a href="http://www.google.com">Click here to go to Google</a>
+        <a href="www.google.com"> <!-- Funcionará este enlace? --> 
+        <img src="">
+    </a>
+
+
+
+
+        <ol> </ol> <!-- esta etiqueta se utiliza para las listas ordenadas-->
+        <ul>  </ul> <!--esta etiqueta se utiliza para las listas desordenadas-->
+        <li> </li> <!-- ambas etiquetas se usan esta etiqueta  para describir cada elemento de la lista-->
+
+        <!-- este es un ejemplo de las LISTAS-->
+
+        <ul>
+            <li>
+                <a href="home.html">Inicio</a>
+            </li>
+            <li>
+                <a href="about.html">Sobre Nosotros</a>
+            </li>
+            <li>
+                <a href="contact_us.html">Contáctanos</a>
+            </li>
+        </ul>
+    
+    <tABLAS> </tABLAS>    <!-- se utiliza para usar tablas -->
+    <thead> </thead> <!-- se utilxa para el encabezao de la tabla-->
+    <tr> </tr> <!-- a su vez estas contienen filas que se definen con esta etiqueta -->
+    <th> Nombre </th> <!--y con eta etiqueta asignamos nombre a la columna-->
+    <th> Email</th>
+    <th> numero de telefono</th>
+    <tbody> </tbody> <!--se utiliza para un cuerpo de tabla que a su vez tambien contiene filas que se aegina con la equiqueta -->
+    <tr> <!--que estan llenas de datos de la tabla-->
+         <td> nombre de ejemplo</td>
+         <td>email de ejemplo</td>
+         <td> 5555_555</td>
+    
+         <!-- este es un ejemplo de TABLAS -->
+
+         <table>
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Email</th>
+                    <th>Número de télefono</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Nombre de ejemplo</td>
+                    <td>an_email@gmail.com</td>
+                    <td>555-5555</td>
+                </tr>
+                <tr>
+                    <td>Otro nombre</td>
+                    <td>another_email@gmail.com</td>
+                    <td>444-4444</td>
+                </tr>
+            </tbody>
+        </table>
+    
+    </body>
 </html>
