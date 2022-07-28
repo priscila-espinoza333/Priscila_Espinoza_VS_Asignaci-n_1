@@ -93,3 +93,35 @@ var user = ["Dwight", "Schrute", "beetsbears@battlestar.com"];
     console.log(user.length);    // 2
 
     
+                // BUCLES : nos permiten hacer la misma operacion varias veces ejemplo
+    for (var num = 0; num <= 5; num++) {
+    console.log(num);
+            }
+// observaciones 
+//La primera parte, var num = 0, se ejecuta solo una vez
+//La segunda parte,  num <= 5, se evalúa. Si es verdadera, ve al paso 3. Si es falsa, ve al paso 6. 
+//Ejecuta lo que esté dentro del bloque de código del bucle for (en nuestro caso: console.log(num);
+//Ejecuta la tercera parte,num++
+//Regresa al paso 2
+//Continúa ejecutando el código que viene después del bucle for
+
+                    // BUCLES Y ARREGLOS : se puede utilizar un blucle for para iterar a travez de un arreglo y mirar cada elemento ejemplo
+
+                    var arr = [2,4,6,8,10];
+for (var i = 0; i < arr.length; i = i + 1) {        
+    console.log(i);             // imprime el índice       
+    console.log(arr[i]);        // imprime el valor del arreglo en ese índice
+}
+                        //BUCLE FOR :  se utiliza para repetir un proceso cierta cantidad de veces
+                        //BUCLES WHILE: se utiliza para repetir un proceso hasta que se cumpla una condición  ejemplo
+                        
+    while (condition) {    
+     // qué seguir haciendo mientras la condición sea verdadera
+                }   
+    // llegamos a esta línea cuando la condición en el ciclo es falsa
+                        
+     var num = 0;    // comienza una variable en 0
+     while (num <= 5) {    
+             console.log(num);    // imprime el valor actual de num    
+            num++;       // incrementa num en 1
+                    } 
